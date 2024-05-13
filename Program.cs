@@ -124,10 +124,10 @@ namespace dz3
                 Console.WriteLine($"Описание сайта: {_description}");
                 Console.WriteLine($"IP адрес сайта: {_ipAddress}");
             }
-            public string Name { get; set; }
-            public string Url { get { return _url; } set { _url = value; } } //так он не ругвется
-            public string Description { get { return _description; } set { _description = value; } }
-            public string IpAddress { get { return _ipAddress; } set { _ipAddress = value; } }
+            public string Name { get; set; } = "";
+            public string Url { get; set; } = "";
+            public string Description { get; set; } = "";
+            public string IpAddress { get; set; } = "";
 
         }
       
